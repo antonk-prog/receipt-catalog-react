@@ -13,7 +13,7 @@ import {Recipe} from './pages/Recipe';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/react-food'>
 
         <Header />
         <main className="container content">
